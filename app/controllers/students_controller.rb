@@ -4,11 +4,11 @@ class StudentsController < ApplicationController
     @students = Student.all
   end
 
-  def new
+  #def new
 
-  end
+  #end
 
-  def create
-    Student.create(params)
-  end
+  #def create
+  #  Student.create(params)
+  #end
 end
